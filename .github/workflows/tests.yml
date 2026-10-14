@@ -16,8 +16,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
+    # ИСПРАВЛЕНО: Изменено имя экшена на корректное setup-python
     - name: Set up Python 3.10
-      uses: actions/actions-setup-python@v5
+      uses: actions/setup-python@v5
       with:
         python-version: "3.10"
         
